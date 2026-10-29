@@ -1,0 +1,4 @@
+docker exec -it postgres-spring-boot bash
+psql -U postgres
+\c <db name>
+\d <table_name>

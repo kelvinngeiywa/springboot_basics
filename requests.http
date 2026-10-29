@@ -4,3 +4,34 @@ GET http://localhost:8080
 ###
 
 GET http://localhost:8080/api/software-engineers
+
+###
+
+POST http://localhost:8080/api/software-engineers
+Content-Type: application/json
+
+{
+  "name":"Kelvin",
+  "techStack":"Java,Springboot"
+
+}
+
+###
+
+GET http://localhost:8080/api/software-engineers/3
+
+###
+
+PUT http://localhost:8080/api/software-engineers/4
+Content-Type: application/json
+
+{
+  "name":"Elias",
+  "techStack":"Typescript,Nodejs"
+
+}
+
+###
+
+DELETE http://localhost:8080/api/software-engineers/3
+
